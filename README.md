@@ -17,21 +17,6 @@ This project demonstrates **process control, multithreading, signals, and IPC me
 
 ---
 
-##  Key Concepts Used
-
-* Process Control → `fork()`, `exec()`, `waitpid()`
-* Threads → `pthread`
-* Signals → `SIGALRM`, `SIGTERM`, `SIGINT`
-* IPC Mechanisms:
-
-  * Shared Memory
-  * Message Queue
-  * FIFO (Named Pipe)
-  * Semaphore
-* File Handling → Logging system
-
----
-
 ## 📁 Directory Structure
 
 ```
