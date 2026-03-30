@@ -1,0 +1,20 @@
+[13:46:52] WARNING: Vehicles getting close
+[13:46:52] ACTION: Speed reduced
+[13:46:56] COLLISION: Vehicles 1 & 2
+[13:46:57] SYSTEM STOPPED due to collision
+[13:47:21] WARNING: Vehicles getting close
+[13:47:21] ACTION: Speed reduced
+[13:47:25] COLLISION: Vehicles 1 & 2
+[13:47:26] SYSTEM STOPPED due to collision
+[14:00:23] WARNING: Vehicles getting close
+[14:00:23] ACTION: Speed reduced
+[14:00:26] COLLISION: Vehicles 1 & 2
+[14:00:27] SYSTEM STOPPED due to collision
+[14:18:56] WARNING: Vehicles getting close
+[14:18:56] ACTION: Speed reduced
+[14:19:00] COLLISION: Vehicles 1 & 2
+[14:19:01] SYSTEM STOPPED due to collision
+[14:24:43] WARNING: Vehicles getting close
+[14:24:43] ACTION: Speed reduced
+[14:20:19] COLLISION: Vehicles 1 & 2
+[14:20:20] SYSTEM STOPPED due to collision
