@@ -17,7 +17,7 @@ This project demonstrates **process control, multithreading, signals, and IPC me
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 Vehical_Collision_Avoidance_System/
@@ -47,7 +47,7 @@ Vehical_Collision_Avoidance_System/
 
 ---
 
-## ⚙️ Build & Run
+## Build & Run
 
 ### Build Project
 
@@ -81,7 +81,7 @@ make clean
 
 ---
 
-## 🚦 System Workflow
+## System Workflow
 
 ```
 Vehicle Processes
