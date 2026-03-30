@@ -183,9 +183,9 @@ Example:
 
 ---
 
+## Sample Output
 
-## Sample Output 
-
+```
 --- Vehicle Data ---
 Vehicle 1 → position=0 speed=50
 Vehicle 2 → position=50 speed=50
@@ -196,7 +196,7 @@ Vehicle 1 → position=10 speed=50
 Vehicle 2 → position=40 speed=50
 Vehicle 3 → position=102 speed=30
 
-⚠️ WARNING: Vehicles 1 & 2 close
+⚠️ WARNING: Vehicles 1 & 2 close  
 🚗 Driver Action: Reducing speed!
 
 --- Vehicle Data ---
@@ -209,5 +209,7 @@ Vehicle 1 → position=27 speed=40
 Vehicle 2 → position=23 speed=40
 Vehicle 3 → position=106 speed=30
 
-🚨 COLLISION DETECTED (1 & 2)
+🚨 COLLISION DETECTED (1 & 2)  
 🚗 System stopped due to collision!
+```
+
