@@ -44,7 +44,7 @@ void handle_stop(int sig) {
     exit(0);
 }
 
-// ⏰ SIGALRM
+
 void handle_alarm(int sig) {
     if (warning_flag == 1) {
         step_after_warning++;
@@ -57,7 +57,7 @@ void handle_alarm(int sig) {
     alarm(2);
 }
 
-// 📊 Monitor Thread
+
 void *monitor_thread(void *arg) {
     while (1) {
         lock();
@@ -75,7 +75,7 @@ void *monitor_thread(void *arg) {
     }
 }
 
-// 🚨 Collision Thread
+
 void *collision_thread(void *arg) {
 
     while (1) {
@@ -86,7 +86,7 @@ void *collision_thread(void *arg) {
 
                 int diff = abs(shared_data[i].position - shared_data[j].position);
 
-                // ⚠️ WARNING
+               
                 if (diff <= 25 && warning_flag == 0) {
                     printf("\n⚠️ WARNING: Vehicles %d & %d close\n",
                            shared_data[i].vehicle_id,
@@ -110,7 +110,7 @@ void *collision_thread(void *arg) {
                
                 else if (diff <= 10 && warning_flag == 2) {
 
-                    printf("\n🚨 COLLISION DETECTED (%d & %d)\n",
+                    printf("\n COLLISION DETECTED (%d & %d)\n",
                            shared_data[i].vehicle_id,
                            shared_data[j].vehicle_id);
 
